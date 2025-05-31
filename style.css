@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+}
+header {
+  padding: 30px;
+  background: #1f1f1f;
+}
+.container {
+  padding: 40px 20px;
+}
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.game-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.game-card h2 {
+  margin-bottom: 10px;
+}
+.game-card p {
+  margin-bottom: 15px;
+}
+.game-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffd700;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background: #1f1f1f;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
